@@ -18,7 +18,7 @@ const Citys =[
 function Cities1() {
     return (
       <div>
-      <h1>Explorez les environs</h1>
+      <h2  className="mt-5 mb-3"><b>Explorez les environs</b></h2>
 <div className="d-flex justify-content-between flex-wrap">
 <City ville  = {Citys} />
 </div>

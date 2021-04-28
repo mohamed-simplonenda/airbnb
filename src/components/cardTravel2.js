@@ -3,9 +3,9 @@ import City from './City 2'
 
 
 const Citys =[
-    {name:"Collection a la une",image:'./img1.jpg', },
-    {name:"Expériences en ligne",image:'./img2.jpg',},
-    {name:"Expériences",image:'./img3.jpg',},
+    {name:"Collection à la une : Envies d'évasion",image:'./img1.jpg',desc:'Voyagez depuis chez vous grâce aux expériences en ligne.' },
+    {name:"Expériences en ligne",image:'./img2.jpg',desc:'Activités interactives en direct, animées par des hôtes.'},
+    {name:"Expériences",image:'./img3.jpg',desc:'Prenez part à des activités locales, où que vous soyez.'},
    
 
   
@@ -15,8 +15,8 @@ const Citys =[
 function Cities2() {
     return (
    <div>
-     <h1>Découvrez les expériences</h1>
-     <p>Des activités uniques avec des experts locaux, en personne ou en ligne.</p>
+     <h2><b>Découvrez les expériences</b></h2>
+     <h3>Des activités uniques avec des experts locaux, en personne ou en ligne.</h3><br/>
 <div className="d-flex justify-content-between flex-wrap">
 <City ville2  = {Citys} />
 </div>

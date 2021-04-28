@@ -7,10 +7,11 @@ function City (props){
         props.ville2.map(el=>
             <div>
             <Row>
-<Card style={{ width: '17rem' }}>
-<Card.Img variant="top" src={el.image} />
-<Card.Body className="d-flex justify-content-between">
-<div><Card.Title>{el.name}</Card.Title></div>
+<Card style={{ width: '23rem', border:'none' }}>
+<Card.Img variant="top" src={el.image} height="350px" style={{borderRadius:'5px'}}/>
+<Card.Body>
+<Card.Title className="card-title">{el.name}<p className="card-text">{el.desc}</p></Card.Title>
+
 
 
 

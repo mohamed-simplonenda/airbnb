@@ -4,7 +4,7 @@ function Menu(){
     return (
         <div className="head">
          <div className="container">
-         <Navbar collapseOnSelect expand="lg"  >
+         <Navbar collapseOnSelect expand="lg">
   <Navbar >
     <Navbar.Brand href="#home">
       <img
@@ -49,7 +49,7 @@ Expériences
     </Nav>
   </Navbar.Collapse>
 </Navbar>
-<div className="search">
+{/* <div className="search">
         <div className="d-flex justify-content-between text-center">
             <div>
                 <h8>Adresse</h8>
@@ -65,7 +65,7 @@ Expériences
             </div>
 
         </div>
-        </div>
+        </div> */}
 <div className="desc">
   <h1>En pleine <br></br> nature</h1>
   <p>

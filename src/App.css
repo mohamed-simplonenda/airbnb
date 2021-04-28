@@ -1,5 +1,21 @@
 
+/* topbar */
+.topbar{
+  background-color: #222222;
+    padding: 20px 80px;
+}
+.topbar a{
+  color: #A3A3A3;
+  text-decoration: underline !important;
 
+}
+.topbar a:hover{
+  color: #717171 !important;
+}
+/* navbar */
+.navbar-light .navbar-nav .nav-link {
+  color: #222222 !important;
+}
 .icone{
   font-size: x-large;
 }
@@ -20,6 +36,7 @@
 .inline{
   display: inline-block;
 }
+/* description */
 .desc{
   padding:146px  40px !important;
 }
@@ -57,12 +74,126 @@ Nav.Link{
   letter-spacing: -0.01em;
 
 }
+.desc1{
+  background-image:url(description.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+  padding: 80px 80px;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 60px !important;
+}
+.desc1 h1{
+  color:#ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 52px;
+
+}
+.desc1 p{
+  color:#ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 22px;
+
+}
+.desc1 button{
+  background-color: #ffffff;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  letter-spacing: normal !important;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+  color: rgb(72, 72, 72) !important;
+  padding: 14px 24px !important;
+  border-radius: 10px !important;
+
+}
+Nav.Link{
+  color:#222222 !important;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+
+}
+/* search */
 .search{
   border:solid white;
   border-radius: 50px;
   background-color: white;
   width: 70%;
 }
+
+/* card */
+.travel-img {
+  width: 65px ;
+  height: 65px;
+  border-radius: 5px;
+}
+.travel {
+  flex: 25%;
+}
+
+.card-travel {
+ border: none;
+}
+.card-title{
+  font-size: 18px !important;
+
+  color: rgb(34, 34, 34) !important;
+    font-weight: 600 !important;
+    white-space: pre-line !important;
+    margin-left: -15px !important;
+}
+.card-text{
+  color: rgb(34, 34, 34);
+  font-size: 14px !important;
+  line-height: 18px !important;
+  font-weight: 400 !important;
+  margin-top: 0px !important;
+  white-space: pre-line !important;
+}
+/* footer */
+.footer{
+  background-color: #f7f7f7;
+  padding: 50px;
+  margin-top:30px;
+}
+.footer li{
+  list-style: none;
+  padding-top: 15px !important;
+  
+}
+.footer a{
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  font-style: inherit !important;
+  font-variant: inherit !important;
+  text-decoration: none !important;
+  color: #222222 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+ 
+
+}
+.footer a:hover{
+  text-decoration: underline !important;
+  color: #717171 !important;
+}
+.footer p{
+  color: #222222 !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    margin-bottom: 0px !important;
+    font-weight: bold !important;
+}
+.conf{
+  margin-left: 0px !important;
+}
+
 
 
 
